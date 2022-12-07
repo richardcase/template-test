@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  capi-cluster-template:
+    apiVersion: v2
+    name: sample-cluster-template
+    description: A sample CAPI Template for use with Rancher
+    type: application
+    version: 0.0.4
+    appVersion: "0.0.4"
+    annotations:
+      catalog.cattle.io/type: capi-cluster-template
+      catalog.cattle.io/namespace: fleet-default
+    urls:
+    - sample-cluster-template-0.0.4.tgz
+generated: "2022-02-25T15:54:51.600996-08:00"
