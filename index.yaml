@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   capi-cluster-template:
-    apiVersion: v2
+  - apiVersion: v2
     name: sample-cluster-template
     created: "2022-02-25T15:54:51.604663-08:00"
     description: A sample CAPI Template for use with Rancher
