@@ -1,0 +1,22 @@
+questions:
+- variable: cluster.name
+  default: mycluster
+  description: "Specify the name of the cluster"
+  label: "Cluster Name"
+  required: true
+  type: string
+  group: "General"
+- variable: kubernetesVersion
+  default: v1.22.6
+  description: "Specify Kubernetes version"
+  label: "Kubernetes Version"
+  type: enum
+  required: true
+  options:
+  - v1.21.6
+  - v1.21.7
+  - v1.21.8
+  - v1.21.9
+  - v1.22.5
+  - v1.21.6
+  group: "General"
